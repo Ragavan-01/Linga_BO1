@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Suite" thread-count="5" preserve-order="true">
+    <classes>
+      <class name="epicList.Verify_Void_Node_Report"/>
+      <class name="epicList.Verify_Employee_Payroll_Reports"/>
+      <class name="epicList.Verify_MenuItemSale_Report"/>
+      <class name="epicList.Verify_Refund_Report"/>
+      <class name="epicList.Verify_SaleRecap_Report"/>
+      <class name="epicList.Verify_Till_Reports"/>
+      <class name="epicList.Verify_Drivr_Report"/>
+      <class name="epicList.Verify_Employee_Attendance_Report"/>
+      <class name="epicList.Verify_DepartmentSale_Report"/>
+      <class name="epicList.Verify_Employee_Labour_Reports"/>
+      <class name="epicList.Verify_ModifierSale_Report"/>
+      <class name="epicList.Verify_GiveX_Card_Report"/>
+      <class name="epicList.Verify_HourlySale_Report"/>
+      <class name="epicList.Verify_CategorySale_Report"/>
+      <class name="epicList.Verify_Tax_Report"/>
+      <class name="epicList.Verify_Weekly_Report"/>
+      <class name="epicList.Verify_HouseAccount_Activity_Reports"/>
+      <class name="epicList.Verify_Batch_Reports"/>
+      <class name="epicList.Verify_DailyTender_Report"/>
+      <class name="epicList.Verify_Void_Employee_Report"/>
+      <class name="epicList.Verify_Cashier_Report"/>
+      <class name="epicList.Verify_Customer_Performance_Report"/>
+      <class name="epicList.Verify_Void_Transaction_Report"/>
+      <class name="epicList.Verify_PaidIn_Or_PaidOut_Report"/>
+      <class name="epicList.Verify_SubCategorySale_Report"/>
+      <class name="epicList.Verify_DailySale_Report"/>
+      <class name="epicList.Verify_Discount_Report"/>
+      <class name="epicList.Verify_SaleSummary_Report"/>
+      <class name="epicList.Verify_Till_Cash_Transaction_Reports"/>
+      <class name="epicList.Verify_Employee_Gratuity_Reports"/>
+      <class name="epicList.Verify_HouseAccount_Statement_Reports"/>
+      <class name="epicList.Verify_Employee_Cash_Tip_Reports"/>
+      <class name="epicList.Verify_Comparision_Report"/>
+      <class name="epicList.Verify_Gift_Card_Report"/>
+      <class name="epicList.Verify_Transaction_Report"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

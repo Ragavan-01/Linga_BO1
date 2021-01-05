@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" preserve-order="true">
+    <classes>
+    <class name="epicList_Integrated.StoreLevel_StoreSetting"/>
+    <class name="epicList_Integrated.Printer_Configuration"/>
+    <class name="epicList_Integrated.Storelevel_Report1"/> 
+    <class name="epicList_Integrated.StoreLevel_Report2"/>
+    <class name="epicList_Integrated.StoreLevel_Report3"/>
+    <class name="epicList_Integrated.EnterpriseReport1"/>
+    <class name="epicList_Integrated.EnterpriseReport2"/>
+    <class name="epicList_Integrated.Product_And_Item_1"/>
+    <class name="epicList_Integrated.Product_And_Item_2"/>
+    <class name="epicList_Integrated.Product_And_Item_3"/>
+    <class name="epicList_Integrated.Inventory1"/>
+    <class name="epicList_Integrated.Inventory2"/>
+    <class name="epicList_Integrated.Inventory3"/>
+    <class name="epicList_Integrated.Enterprise1"/>
+    <class name="epicList_Integrated.Enterprise2"/>
+    <class name="epicList_Integrated.Enterprise3"/>
+    <class name="epicList_Integrated.StoreLevel_Customer"/>
+    <class name="epicList_Integrated.User_management"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
